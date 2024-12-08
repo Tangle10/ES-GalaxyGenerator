@@ -141,19 +141,19 @@ def check_var():
 	if not os.path.isfile('res' + os.sep + 'galaxyimages' + os.sep + galaxyImage + '.jpg'):
 		print('error: galaxyImage not found!')
 		exit()
-	if systemAmount > 500:
+	if systemAmount > 2000:
 		print('error: systemAmount is higher than 500!')
 		exit()
 	elif systemAmount < 1:
 		print('error: systemAmount is lower than 1!')
 		exit()
-	if landPlanets > 500:
+	if landPlanets > 5000:
 		print('error: landPlanets is higher than 500!')
 		exit()
-	if races > 12:
+	if races > 60:
 		print('error: Races is higher than 12!')
 		exit()
-	if sunmax > 3:
+	if sunmax > 5:
 		print('error: SunMax is higher than 3!')
 		exit()
 	elif sunmax < 1:
